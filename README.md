@@ -6,7 +6,7 @@ Apache Storm is a data-processing system that analyzes real-time data. The follo
 
 ----
 ## Quick Guide
-### Key Terms:
+### Base Terms:
 - ***Fault Tolerant***: Ability of a system to continue operating without interruption when one or more of its components fail.<sup>[[1]](#faultTolerant)</sup>
 - ***Real-Time Stream Processing***: Process of taking action on data at the time the data is generated or published.<sup>[[2]](#realTime)</sup>
 - ***Operational Intelligence***: A data analytics philosophy that implements quick buisness decisions based on real-time data.<sup>[[3]](#operational)</sup>
@@ -26,7 +26,11 @@ Apache Storm is a data-processing system that analyzes real-time data. The follo
 - Extreamly fast data processing
 - Maintains performance by adding resources linearly
   - Highly scaleable
-- 
+- Utilizes Operational Intelligence
+- Guarenteed data processing irregardless of nodes dieing or messages being lost
+
+### Components of Apache Storm
+Storm reads raw streams of real-time data and passes it through a series of small process unites to output processed / ueful information. 
 
 ----
 ## Installation
