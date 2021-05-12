@@ -7,8 +7,9 @@ Apache Storm is a data-processing system that analyzes real-time data. The follo
 ----
 ## Quick Guide
 ### Key Terms:
-- ***Fault Tolerant***: Ability of a system to continue operating without interruption when one or more of its components fail<sup>[[1]](#faultTolerant)</sup>.
-
+- ***Fault Tolerant***: Ability of a system to continue operating without interruption when one or more of its components fail.<sup>[[1]](#faultTolerant)</sup>
+- ***Real-Time Stream Processing***: Process of taking action on data at the time the data is generated or published.<sup>[[2]](#realTime)</sup>
+- ***Operational Intelligence***: A data analytics philosophy that implements quick buisness decisions based on real-time data.<sup>[[3]](#operational)</sup>
 
 ### What is Storm?
 ***Apache Storm*** is a distributed real-time big data-processing system. 
@@ -20,6 +21,12 @@ Apache Storm is a data-processing system that analyzes real-time data. The follo
 
 ### Benefits of Apache Storm
 - Storm is ***open source***, ***robust***, and ***user friendly***
+- Storm is ***fault tolerant***, ***flexible***, ***reliable***, and supports ***any*** programming language
+- Permits real-time stream processing
+- Extreamly fast data processing
+- Maintains performance by adding resources linearly
+  - Highly scaleable
+- 
 
 ----
 ## Installation
@@ -123,3 +130,7 @@ Since our Java install is "keg-only", we must run the following code to allow th
 
 ## Footnotes
 <a name="faultTolerant">[1]</a>: Definition grabbed from [imperva.com](https://www.imperva.com/learn/availability/fault-tolerance/)
+
+<a name="realTime">[2]</a>: Definition grabbed from [hazelcast.com](https://hazelcast.com/glossary/real-time-stream-processing/)
+
+<a name="operational">[3]</a>: Definition grabbed from [sisense.com](https://www.sisense.com/glossary/operational-intelligence/)
