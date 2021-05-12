@@ -7,7 +7,9 @@ Apache Storm is a data-processing system that analyzes real-time data. The follo
 ----
 ## Quick Guide
 ### Key Terms
-***Fault Tolerant***: Ability of a system to continue operating without interruption when one or more of its components fail. [^1]
+***Fault Tolerant***: Ability of a system to continue operating without interruption when one or more of its components fail. [^faultTolerant]
+
+[^faultTolerant]: Definition grabbed from [imperva.com](https://www.imperva.com/learn/availability/fault-tolerance/)
 
 
 ### What is Storm?
@@ -122,4 +124,3 @@ Since our Java install is "keg-only", we must run the following code to allow th
 ### Step 2: Verify Java 
 
 ## Footnotes
-[^1]: Definition grabbed from [imperva.com](https://www.imperva.com/learn/availability/fault-tolerance/)
