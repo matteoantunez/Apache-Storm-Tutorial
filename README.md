@@ -1,11 +1,27 @@
 <!-- Tutorial URL: https://www.tutorialspoint.com/apache_storm/index.htm  -->
 # Apache Storm Tutorial
-Apache Storm is a Big Data Processing Framwork that allows users to analyze real-time data. This tutorial will be used for Mac users and help with the installation and utilization of this framework. 
+Apache Storm is a data-processing system that analyzes real-time data. The following tutorial and guide will help explain and demostrate the capabilities of this system.
 
 [Original Tutoral](https://www.tutorialspoint.com/apache_storm/index.htm)
 
+----
 ## Quick Guide
+### Key Terms
+***Fault Tolerant***: Ability of a system to continue operating without interruption when one or more of its components fail. [^1]
 
+
+### What is Storm?
+***Apache Storm*** is a distributed real-time big data-processing system. 
+
+- Processes ***fault-tolerant*** and ***horizontal scalable*** data
+- Stateless system, however
+  - Manages distributed enviroment and cluster state via ***Apache ZooKeeper***
+- System guarentees every message with be processed through the topology ***at least*** once
+
+### Benefits of Apache Storm
+- Storm is ***open source***, ***robust***, and ***user friendly***
+
+----
 ## Installation
 Before we can begin to install Apache Storm, we need to make sure the following items are installed on our device:
 
@@ -104,3 +120,6 @@ Since our Java install is "keg-only", we must run the following code to allow th
 [Source](https://mkyong.com/java/how-to-install-java-on-mac-osx/)
 
 ### Step 2: Verify Java 
+
+## Footnotes
+[^1]: Definition grabbed from [imperva.com](https://www.imperva.com/learn/availability/fault-tolerance/)
