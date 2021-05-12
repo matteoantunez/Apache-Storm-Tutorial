@@ -6,10 +6,8 @@ Apache Storm is a data-processing system that analyzes real-time data. The follo
 
 ----
 ## Quick Guide
-### Key Terms
-***Fault Tolerant***: Ability of a system to continue operating without interruption when one or more of its components fail<sup>[[1]](#faultTolerant)</sup>.
-
-[^faultTolerant]: 
+### Key Terms:
+- ***Fault Tolerant***: Ability of a system to continue operating without interruption when one or more of its components fail<sup>[[1]](#faultTolerant)</sup>.
 
 
 ### What is Storm?
