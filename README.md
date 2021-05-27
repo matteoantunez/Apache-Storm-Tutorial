@@ -36,7 +36,7 @@ Storm reads raw streams of real-time data and passes it through a series of smal
 * ***Stream***: An ***<u>unordered</u>*** sequence of tuples.
 * ***Spouts***: The source of the stream; typically can be fed raw data. Otherwise, spouts can be used to read data from data sources.
 * ***Bolts***: Logical processing units that process and produce a new output stream.
-* ***Topology***: The combination of both processing units (spouts & bolt). Please see [Topology]() for more <mark>information<mark>.
+* ***Topology***: The combination of both processing units (spouts & bolt). Please see [Topology]() for more information.
 
   ***Directed Graph***
   <div class="boxed">
