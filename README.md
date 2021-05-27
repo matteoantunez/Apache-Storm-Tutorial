@@ -1,3 +1,14 @@
+<style>
+.boxed {
+  background: lightgrey;
+  border: 5px dashed black;
+  margin: 0px auto;
+  width: 2em;
+  padding: 1em;
+  border-radius: 4em;
+}
+</style>
+
 <!-- Tutorial URL: https://www.tutorialspoint.com/apache_storm/index.htm  -->
 # Apache Storm Tutorial
 Apache Storm is a data-processing system that analyzes real-time data. The following tutorial and guide will help explain and demostrate the capabilities of this system.
