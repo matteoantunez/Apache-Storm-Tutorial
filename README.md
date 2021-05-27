@@ -30,7 +30,19 @@ Apache Storm is a data-processing system that analyzes real-time data. The follo
 - Guarenteed data processing irregardless of nodes dieing or messages being lost
 
 ### Components of Apache Storm
-Storm reads raw streams of real-time data and passes it through a series of small process unites to output processed / ueful information. 
+Storm reads raw streams of real-time data and passes it through a series of small process unites to output processed / useful information. To understand how, both, Storm functions and processes its data, we must comprehend the individual components utilized:
+
+* ***Tuple***: Also known as Storm's main data structure, it is a ***<u>ordered</u>*** list of elements that is modeled (displayed as) a set of comma-seperated values.
+* ***Stream***: An ***<u>unordered</u>*** sequence of tuples.
+* ***Spouts***: The source of the stream; typically can be fed raw data. Otherwise, spouts can be used to read data from data sources.
+* ***Bolts***: Logical processing units that process and produce a new output stream.
+* ***Topology***: The combination of both processing units (spouts & bolt). Please see [Topology]() for more <mark>information<mark>.
+
+  ***Directed Graph***
+  <div class="boxed">
+    ***Verticies*** == ***Computation***
+    ***Edges*** = ***Streams of data***
+  </div>
 
 ----
 ## Installation
