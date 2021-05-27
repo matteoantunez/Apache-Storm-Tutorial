@@ -1,3 +1,5 @@
+<!--
+
 <style>
 .boxed {
   background: lightgrey;
@@ -8,6 +10,7 @@
   border-radius: 4em;
 }
 </style>
+-->
 
 <!-- Tutorial URL: https://www.tutorialspoint.com/apache_storm/index.htm  -->
 # Apache Storm Tutorial
@@ -50,7 +53,7 @@ Storm reads raw streams of real-time data and passes it through a series of smal
 * ***Topology***: The combination of both processing units (spouts & bolt). Please see [Topology]() for more information.
 
   ***Directed Graph***
-  <div class="boxed">
+  <div class="boxed" style="background: lightgrey;border: 5px dashed black; margin: 0px auto; width: 2em; padding: 1em; border-radius: 4em;">
     ***Verticies*** == ***Computation***
     ***Edges*** = ***Streams of data***
   </div>
