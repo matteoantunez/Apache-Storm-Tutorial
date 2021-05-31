@@ -50,13 +50,20 @@ Storm reads raw streams of real-time data and passes it through a series of smal
 * ***Stream***: An ***<u>unordered</u>*** sequence of tuples.
 * ***Spouts***: The source of the stream; typically can be fed raw data. Otherwise, spouts can be used to read data from data sources.
 * ***Bolts***: Logical processing units that process and produce a new output stream.
-* ***Topology***: The combination of both processing units (spouts & bolt). Please see [Topology]() for more information.
+* ***Topology***: The combination of both processing units (spouts & bolt). Please see [Topology](#topo) for more information.
 
   ***Directed Graph***
   <!--<div class="boxed" style="background: lightgrey;border: 5px dashed black; margin: 0px auto; width: 2em; padding: 1em; border-radius: 4em;"> -->
     ***Verticies*** == ***Computation***
     ***Edges*** = ***Streams of data***
   <!-- </div> -->
+
+
+#### Topology <a name="topo"></a>
+> Spouts + Bolts = Topology
+
+<b><u>Simple Topology</b></u>
+<img src="http://yuml.me/diagram/plain/activity/(Grab Data)-sendToOneOrMore>|a|(Bolt)-maySendTo>(Bolt)->|b|(Bolt)->|c|(Bolt)->(Bolt)">
 
 ----
 ## Installation
