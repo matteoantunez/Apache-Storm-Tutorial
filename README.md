@@ -63,7 +63,8 @@ Storm reads raw streams of real-time data and passes it through a series of smal
 > Spouts + Bolts = Topology
 
 <b><u>Simple Topology</b></u>
-<img src="http://yuml.me/diagram/plain/activity/(Grab Data)-sendToOneOrMore>|a|(Bolt)-maySendTo>(Bolt)->|b|(Bolt)->|c|(Bolt)->(Bolt)">
+<img src="http://yuml.me/diagram/plain/activity/(Stream of Data)-|a||a|->(First Bolt)->(Second Bolt)->|b||a|->(First Bolt)->|b||b|->(Processed Data)->(end)">
+
 
 ----
 ## Installation
