@@ -63,7 +63,17 @@ Storm reads raw streams of real-time data and passes it through a series of smal
 > Spouts + Bolts = Topology
 
 <b><u>Simple Topology</b></u>
-<img src="hhttp://yuml.me/diagram/plain/activity/(Stream%20of%20Data)-%7Ca%7C,%20%7Ca%7C-%3E(First%20Bolt)-%3E(Second%20Bolt)-%3E%7Cb%7C,%20%7Ca%7C-%3E(First%20Bolt)-%3E%7Cb%7C,%20%7Cb%7C-%3E(Processed%20Data)-%3E(end)">
+<!--  Mermaid Code (Use the following Live Editor: https://mermaid-js.github.io/) 
+graph TD
+    A[Inital Data Stream] ==> B[First Bolt]
+    B ==> C[Second Bolt]
+    C ==> D[Final Data Bolt - Stream]
+    A ==> E[First Bolt]
+    E ==> D
+-->
+
+
+[![](https://mermaid.ink/img/eyJjb2RlIjoiZ3JhcGggTFJcbiAgICBBW0luaXRhbCBEYXRhIFN0cmVhbV0gPT0-IEJbRmlyc3QgQm9sdF1cbiAgICBCID09PiBDW1NlY29uZCBCb2x0XVxuICAgIEMgPT0-IERbRmluYWwgRGF0YSBCb2x0IC0gU3RyZWFtXVxuICAgIEEgPT0-IEVbRmlyc3QgQm9sdF1cbiAgICBFID09PiBEXG4gICIsIm1lcm1haWQiOnsidGhlbWUiOiJuZXV0cmFsIiwiZGlhZ3JhbVBhZGRpbmciOjJ9LCJ1cGRhdGVFZGl0b3IiOmZhbHNlLCJhdXRvU3luYyI6dHJ1ZSwidXBkYXRlRGlhZ3JhbSI6ZmFsc2V9)](https://mermaid-js.github.io/mermaid-live-editor/edit##eyJjb2RlIjoiZ3JhcGggXG4gICAgQVtJbml0YWwgRGF0YSBTdHJlYW1dID09PiBCW0ZpcnN0IEJvbHRdXG4gICAgQiA9PT4gQ1tTZWNvbmQgQm9sdF1cbiAgICBDID09PiBEW0ZpbmFsIERhdGEgQm9sdCAtIFN0cmVhbV1cbiAgICBBID09PiBFW0ZpcnN0IEJvbHRdXG4gICAgRSA9PT4gRFxuICAiLCJtZXJtYWlkIjoie1xuICBcInRoZW1lXCI6IFwibmV1dHJhbFwiLFxuICBcImRpYWdyYW1QYWRkaW5nXCI6IDJcbn0iLCJ1cGRhdGVFZGl0b3IiOmZhbHNlLCJhdXRvU3luYyI6dHJ1ZSwidXBkYXRlRGlhZ3JhbSI6ZmFsc2V9)
 
 
 ----
