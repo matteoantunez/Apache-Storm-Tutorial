@@ -139,9 +139,7 @@ To install Java, run the following code using Hombrew in Terminal:
 Due to Java having some compatabilitiy issues with macOS, you may get the following ouptut after the download and install is complete.
 
 ```Terminal
-openjdk is keg-only, which means it was not symlinked into /opt/homebrew,
-because macOS provides similar software and installing this software in
-parallel can cause all kinds of trouble.
+openjdk is keg-only, which means it was not symlinked into /opt/homebrew, because macOS provides similar software and installing this software in parallel can cause all kinds of trouble.
 
 If you need to have openjdk first in your PATH, run:
   echo 'export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"' >> ~/.zshrc
