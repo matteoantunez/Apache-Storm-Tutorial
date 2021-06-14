@@ -1,0 +1,8 @@
+Script started on Sun Jun 13 22:25:28 2021
+[1m[7m%[27m[1m[0m                                                                                                                                                                        [0m[27m[24m[J(base) matteoantunez@Matteos-MacBook-Pro apacheStormTutorial % [K[?2004h[7mbundle exec jekyll serve [27m[25D[27mb[27mu[27mn[27md[27ml[27me[27m [27me[27mx[27me[27mc[27m [27mj[27me[27mk[27my[27ml[27ml[27m [27ms[27me[27mr[27mv[27me[27m [?2004l
+[31mbundler: command not found: jekyll[0m
+[33mInstall missing gem executables with `bundle install`[0m
+[1m[7m%[27m[1m[0m                                                                                                                                                                        [0m[27m[24m[J(base) matteoantunez@Matteos-MacBook-Pro apacheStormTutorial % [K[?2004hggem "jekl u yll"[?2004l
+ERROR:  While executing gem ... (Gem::CommandLineError)
+    Unknown command jekyll
+[1m[7m%[27m[1m[0m                                                                                                                                                                        [0m[27m[24m[J(base) matteoantunez@Matteos-MacBook-Pro apacheStormTutorial % [K[?2004h
