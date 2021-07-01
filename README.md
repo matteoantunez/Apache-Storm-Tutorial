@@ -171,7 +171,12 @@ Since our Java install is "keg-only", we must run the following code to allow th
 
 [Source](https://mkyong.com/java/how-to-install-java-on-mac-osx/)
 
-### Step 2: Verify Java 
+
+
+### Step 3: Download/Install ZooKeeper Framework
+Before we can execute Apache Storm, we need to install Apache Zookeeper. To begin the installation, we first need to download the ***latest*** version of ZooKeeper from there [releases](https://zookeeper.apache.org/releases.html) page (version 3.7.0 as of July 1, 2021): https://zookeeper.apache.org/releases.html
+
+### Step 3.1: 
 
 ## Footnotes
 <a name="faultTolerant">[1]</a>: Definition grabbed from [imperva.com](https://www.imperva.com/learn/availability/fault-tolerance/)
